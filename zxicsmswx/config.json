@@ -1,0 +1,11 @@
+{
+    "wx_key": "d223596f-326d-4778-b7ff-be9ddd7f3817",
+    "modems": [
+        {
+            "type": "zxic_web_old",
+            "name": "13097771234",
+            "modem_ip": "192.168.0.1",
+            "login_password": "admin"
+        }
+    ]
+}

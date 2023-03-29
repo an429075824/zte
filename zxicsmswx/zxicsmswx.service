@@ -1,0 +1,14 @@
+[Unit]
+Description=ZXIC based LTE dongle SMS forwarder
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env python3 zxicsmswx
+WorkingDirectory=/change/to/your/installation/path/for/zxicsmswx
+Restart=always
+RuntimeMaxSec=infinity
+SyslogIdentifier=zxicsmswx
+
+[Install]
+WantedBy=default.target
+
